@@ -1,0 +1,18 @@
+server:
+  port: 90
+
+management:
+  endpoints:
+    metrics:
+      # Needed to expose all metrics
+      enabled: true
+    web:
+      exposure:
+        # Needed to expose all metrics
+        include: "*"
+    prometheus:
+      enabled: true
+ # metrics:
+ #   export:
+ #     prometheus:
+ #       enabled: true
