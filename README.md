@@ -25,5 +25,5 @@ an actuator too [http://localhost:100/actuator](http://localhost:100/actuator)
 This module use Micrometer, but integrating a Dropwizard reporter (ConsoleReporter) wrapped into
 Micrometer registry. This solution can be used to easy migrate from Dropwizard to Micrometer if there are
 some custom reporter used.
-It exposes a web service on [http://localhost:110/greeting](http://localhost:110/greeting) and
-an actuator too [http://localhost:110/actuator](http://localhost:110/actuator)
+It exposes a web service on [http://localhost:110/greeting](http://localhost:120/greeting) and
+an actuator too [http://localhost:110/actuator](http://localhost:120/actuator)
