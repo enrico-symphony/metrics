@@ -10,6 +10,8 @@
     <modules>
         <module>metrics-dropwizard</module>
         <module>metrics-micrometer</module>
+        <module>metrics-micrometer-custom</module>
+        <module>metrics-micrometer-legacy</module>
     </modules>
 </project>
 
